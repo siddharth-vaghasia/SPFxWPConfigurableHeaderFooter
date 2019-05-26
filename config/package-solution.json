@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "SPFx Application Customizer Custom Header",
+    "id": "4f5b516d-cf25-4229-ba46-8b1f20a34efa",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+    
+  },
+  "paths": {
+    "zippedPackage": "solution/SPFxAppCustomizerApp.sppkg"
+  }
+}

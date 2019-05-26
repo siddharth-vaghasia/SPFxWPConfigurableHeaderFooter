@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "spo",
+    "version": "1.7.0",
+    "libraryName": "sp-fx-ext-custom-header",
+    "libraryId": "4f5b516d-cf25-4229-ba46-8b1f20a34efa",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

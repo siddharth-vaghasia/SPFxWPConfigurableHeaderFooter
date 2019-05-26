@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://mypersorg.sharepoint.com/sites/FCAApps/SitePages/SFPxApplicationCustomizerExtension.aspx",
+      "customActions": {
+        "fc14316e-72db-4860-8283-458154eaef3e": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "---------------HEADER, This is to demo SPFx extension to customize app header------------------------",
+            "Bottom": "---------------FOOTER, This is to demo SPFx extension to customize app header------------------------"
+          }
+        }
+      }
+    }
+  },
+  "initialPage": "https://localhost:5432/workbench",
+  "api": {
+    "port": 5432,
+    "entryPath": "node_modules/@microsoft/sp-webpart-workbench/lib/api/"
+  }
+}

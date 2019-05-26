@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "custom-header-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/customHeader/CustomHeaderApplicationCustomizer.js",
+          "manifest": "./src/extensions/customHeader/CustomHeaderApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "wp-configure-application-customizer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpConfigureApplicationCustomizer/WpConfigureApplicationCustomizerWebPart.js",
+          "manifest": "./src/webparts/wpConfigureApplicationCustomizer/WpConfigureApplicationCustomizerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jQuery"
+    },
+    "bootstrap": {
+      "path": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
+      "globalName": "bootstrap",
+      "globalDependencies": ["jquery"]
+    }
+  },
+  "localizedResources": {
+    "CustomHeaderApplicationCustomizerStrings": "lib/extensions/customHeader/loc/{locale}.js",
+    "WpConfigureApplicationCustomizerWebPartStrings": "lib/webparts/wpConfigureApplicationCustomizer/loc/{locale}.js"
+  }
+}
