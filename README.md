@@ -2,19 +2,20 @@
 
 This repo is a SPFx webpart which allows users to add/modify/delete custom header and footer using SPFx application customizer extension all modern pages within SP online site. This webpart provide interface to add header and footer so that we don't have to modify code when we need to change header, footer or remove it from site.
 
-Challanges/Drawback with only using SPFx extension for customizing header and footer.
+Challanges/Drawback with ONLY using SPFx extension for customizing header and footer.
 * Header and footer HTML needs to be hardcoded in solution
 * Changes to code required if we need to change any text/html in future.
 * Redeployment of package and installation
 * Diffrent solution would be required for diffrent site collections as we would defintely need diffrent header and footer for each site collection(most of case)
 * High maintananence and time consuming for simple task. 
 
+To overcome this drawbacks, this solution comes handy. Feel free to connect on siddh.vaghasia@gmail.com for any details.
+
 ### Features of solution
 
 * WebPart to configure Header and Footer
 * Edit functionality if header or footer is already added via this solution
 * Completely Remove header and foooter created via this solution
-
 
 ### How to Use Solution
 * Download code
@@ -27,7 +28,7 @@ Challanges/Drawback with only using SPFx extension for customizing header and fo
 * On Success message - Refresh the page and you would see your header and footer on all your modern pages.
 * To Edit/Remove, go to same page again and Use 'Update Custom Action' or 'Remove Custom Action' button.
 
-### High level design of webpart
+### High level design of Solution
 
 * SPFx solution with 2 components 1. SPFx WebPArt 2. SPFx Extension Application Customizer
 * Disables Automatic activation of SPFx extension when app is installed.
