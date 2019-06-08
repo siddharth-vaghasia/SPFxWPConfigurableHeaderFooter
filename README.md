@@ -18,7 +18,7 @@ To overcome this drawbacks, this solution comes handy. Feel free to connect on s
 * Completely Remove header and foooter created via this solution
 
 ### How to Use Solution
-For detailed instruction refer this [Document] (https://github.com/siddharth-vaghasia/SPFxWPConfigurableHeaderFooter/blob/master/How%20to%20Configure%20Solution.docx "How to configure solution")
+For detailed instruction refer this [Document]  (https://github.com/siddharth-vaghasia/SPFxWPConfigurableHeaderFooter/blob/master/How%20to%20Configure%20Solution.docx "How to configure solution")
 * Download code
 * Test your webpart from local server (to confirm it is working)
 * Enable Office 365 CDN [Host webpart from Office 365 CDN](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/hosting-webpart-from-office-365-cdn "Office 365 CDN")
