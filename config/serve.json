@@ -4,7 +4,7 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://mypersorg.sharepoint.com/sites/FCAApps/SitePages/SFPxApplicationCustomizerExtension.aspx",
+      "pageUrl": "https://contoso.sharepoint.com/sites/mysc/SitePages/SFPxApplicationCustomizerExtension.aspx",
       "customActions": {
         "fc14316e-72db-4860-8283-458154eaef3e": {
           "location": "ClientSideExtension.ApplicationCustomizer",
