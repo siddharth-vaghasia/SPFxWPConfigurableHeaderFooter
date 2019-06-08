@@ -37,4 +37,4 @@ For detailed instruction refer this [Document]  (https://github.com/siddharth-va
 * Passes parameters to Extension with ClientSideComponentProperties
 * SPFx webpart uses Bootstrap UI framework and Jquery
 
-For any issue or help, contact me on siddh.vaghasia@gmail.com
+For any issue or help, contact me on siddh.vaghasia@gmail.com.
