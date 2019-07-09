@@ -230,8 +230,9 @@ protected getCustomAction() {
                      jQuery("#footerText").val(JSON.parse(element.ClientSideComponentProperties).Bottom);
                      
                     }
+                    jQuery("#currentActionId").val(element.Id);
                   }
-                  jQuery("#currentActionId").val(element.Id);
+                
               });
             });  
            });  
