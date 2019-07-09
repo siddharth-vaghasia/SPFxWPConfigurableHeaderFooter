@@ -20,7 +20,7 @@ To overcome this drawbacks, this solution comes handy. This is resuable componen
 
 ### Package and Deploy
 
-Note - If you don't want to build and package on your own, you can directly download package at this [location](./sharepoint/solutions/SPFxAppCustomizerApp.sppkg) and upload to app catalog and install app on required site collection. Skip below steps and directly go to How to use section.
+Note - If you don't want to build and package on your own, you can directly download package at this [location](./sharepoint/solution/SPFxAppCustomizerApp.sppkg) and upload to app catalog and install app on required site collection. Skip below steps and directly go to How to use section.
 
 Clone the solution and make sure there is no error before packaging. Try first on local work bench.
 
